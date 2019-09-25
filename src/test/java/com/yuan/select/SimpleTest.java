@@ -221,7 +221,7 @@ public class SimpleTest {
     }
 
     /**
-     * 结果只返回1列，注意是使用场景
+     * 结果只返回1列（第一列），注意是使用场景
      */
     @Test
     public void selectByWrapperObjs() {

@@ -42,6 +42,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- sql分析打印（非必须依赖）注意：该插件有性能损耗，不建议在生产环境使用 -->
+        <dependency>
+            <groupId>p6spy</groupId>
+            <artifactId>p6spy</artifactId>
+            <version>3.8.2</version>
+        </dependency>
     </dependencies>
 
     <build>
